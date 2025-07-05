@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - Sarzan Boutique</title>
+  <style>
+    body {
+      background-color: lavenderblush;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    h1 {
+      color: purple;
+      text-align: center;
+    }
+    p {
+      color: #444;
+      font-size: 18px;
+      text-align: center;
+    }
+    form {
+      max-width: 500px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    button {
+      margin-top: 15px;
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: deeppink;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .back-link:hover {
+      background-color: deeppink;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>You can reach us anytime by filling this form:</p>
+
+  <form action="https://formsubmit.co/sarzanboutique@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div style="text-align:center;">
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </div>
+</body>
+</html>
